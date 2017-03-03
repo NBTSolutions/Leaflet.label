@@ -33,7 +33,7 @@ var LeafletLabel = L.Class.extend({
 		className: '',
 		clickable: false,
 		direction: 'right',
-		noHide: false,
+		noHide: true,
 		offset: [12, -15], // 6 (width of the label triangle) + 6 (padding)
 		opacity: 1,
 		zoomAnimation: true
